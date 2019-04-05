@@ -1,0 +1,17 @@
+[Zabbix-connector]
+Description     = Zabbix database
+Trace       = Off
+TraceFile   = stderr
+Driver      = MySQL
+SERVER      = 127.0.0.1
+USER        = Zabbix
+PASSWORD    = Topgun
+PORT        = 3306
+DATABASE    = zabbix
+
+[ORA_TESTDB]
+Driver= OracleDriver
+DSN= TESTDB
+ServerName= 
+UserID= zabbix
+Password= zabbix

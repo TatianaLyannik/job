@@ -1,0 +1,3 @@
+# Created by anaconda
+# oracle-database-preinstall-18c : Add NOZEROCONF=yes
+NOZEROCONF=yes
